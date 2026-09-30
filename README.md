@@ -64,3 +64,5 @@ GitHub Actions `.github/workflows/pages.yml` запускает тесты и с
 - [Подтверждённая сделка NO](https://explorer.solana.com/tx/2NNzcuVZBHg9xLxN5ghkY96JBuH987hMEpzexCDLEANHsnbjt4gJRCzZ8PZwvpD2EMTLhTJn7BbQJHog1MEVWjpG?cluster=devnet)
 
 `npm test` и `npm run build` проходят. Секретный `devnet-wallet.json` не копировался в репозиторий.
+
+Публичная GitHub Pages страница также проверена с новым burner wallet: faucet выдал тестовые средства; [покупка YES за 5 mUSDC подтверждена](https://explorer.solana.com/tx/VjYyt5KSxan75JaUDry6GRZw7rt56eax4FrfHfbuCviACnz4EEaj85TDeoP4fEDFHG3aSoQ7FdiFtYubSr18Vmn?cluster=devnet), баланс стал 995 mUSDC, позиция 9,6606 YES, вероятность 51,5%.
