@@ -13,3 +13,6 @@ devnet-wallet.json
 *wallet*.json
 .local/
 .vercel/
+.cache/
+.npm-cache/
+.vercel-global/
