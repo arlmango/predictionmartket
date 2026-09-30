@@ -55,3 +55,12 @@ WALLET=/absolute/path/to/devnet-wallet.json npm run market:create
 ## Публикация
 
 GitHub Actions `.github/workflows/pages.yml` запускает тесты и сборку на push в `main`, затем публикует `dist` через GitHub Pages. Pages настроен на GitHub Actions. Секреты для сборки/публикации не нужны. Vite base настроен на `/predictionmartket/`.
+
+## Проверено 30 сентября 2026
+
+Локальный браузер автоматически получил 1 000 mUSDC / 0,02 SOL. Покупка YES за 5 mUSDC: вероятность 50% → 51,5%, баланс 1 000 → 995, позиция 9,6517 YES. Затем покупка NO за 5 mUSDC: баланс 990, позиция 9,9481 NO, вероятность YES вернулась примерно к 50%.
+
+- [Подтверждённая сделка YES](https://explorer.solana.com/tx/3vTiaeSYLS36c1fSMQRHebQNsGjhyt4q3G7HjvKaprR6S84M5M5NBYzerKQh7STfVRaJFNB1H5vkiR3GLdnNYaaT?cluster=devnet)
+- [Подтверждённая сделка NO](https://explorer.solana.com/tx/2NNzcuVZBHg9xLxN5ghkY96JBuH987hMEpzexCDLEANHsnbjt4gJRCzZ8PZwvpD2EMTLhTJn7BbQJHog1MEVWjpG?cluster=devnet)
+
+`npm test` и `npm run build` проходят. Секретный `devnet-wallet.json` не копировался в репозиторий.
