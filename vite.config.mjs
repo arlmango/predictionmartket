@@ -1,2 +1,3 @@
 import { defineConfig } from 'vite';
-export default defineConfig({root:'src',base:'/predictionmartket/',build:{outDir:'../dist',emptyOutDir:true},define:{'process.env':{}}});
+import { resolve } from 'node:path';
+export default defineConfig({root:'src',base:'./',build:{outDir:'../dist',emptyOutDir:true,rollupOptions:{input:{main:resolve('src/index.html'),market:resolve('src/market.html')}}},define:{'process.env':{}}});
